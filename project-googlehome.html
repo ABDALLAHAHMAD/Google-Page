@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href =  
+        "google-icon.svg" 
+        type = "image/x-icon">
+    <title>Google</title>
+    <style>
+        
+        ul {
+            list-style-type: none;
+            margin-left: 30px;
+            margin-top:1.4rem;
+            
+        }
+        li {
+            display: inline;
+            padding: 5px;
+        }
+        a {
+            text-decoration: none;
+            color:rgb(22, 22, 22);
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn-sign {
+            background-color: #008CBA;
+            color:white;
+            border: none;
+            padding: 5px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .div-logo-google {
+            display: flex;
+            justify-content: center;
+            margin-top: 7rem;
+        }
+        .img-google{
+            height: 92px;
+            width:272px;
+            float: left;
+        }
+        /* input[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid rgb(212, 212, 212);
+            border-radius: 25%;
+            background-color: white;
+            background-image: url('google-search-ads.svg');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+        } */
+        .div-input {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+
+        }
+        .input-search {
+            width: 35rem;
+            height: 2.3rem;
+            border-radius: 50px;
+            border: 2px solid rgb(212, 212, 212);
+            background-image: url('google-search-ads.svg');
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: 10px 10px;
+            display: flex;
+            padding-left: 40px;
+        }
+        .two-btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .btn-search {
+            background-color: rgb(216, 216, 216);
+            color:rgb(109, 108, 108);
+            border: none;
+            padding: 10px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <navbar class="navber">
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">صور </a></li>
+            <li><a href="#">Google Apps</a></li>
+            <li><button class="btn-sign">تسجيل الدخول</button></li>
+          </ul>
+    </navbar>
+    <main>
+        <div class="div-logo-google">
+            <img class="img-google" src="google-2015.svg">
+        </div>
+        <div class="div-input">
+            <input type="text" class="input-search">
+        </div>
+        <div class="two-btn">
+            <button class="btn-search">Google بحث </button>
+            <button class="btn-search">ضربة حظ </button>
+        </div>
+    </main>
+</body>
+</html>
